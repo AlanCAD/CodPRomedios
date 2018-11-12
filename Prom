@@ -1,0 +1,17 @@
+void setup () {    
+  
+}
+
+void draw () {
+  prom (5,7,8 );
+  
+ 
+}
+
+float prom ( float a, float b, float c ) {
+      float dat = (a + b + c)/3;
+      println(dat);
+  return dat;
+  
+}
+  
