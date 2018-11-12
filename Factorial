@@ -1,0 +1,30 @@
+void setup () {    
+  
+}
+
+void draw () {
+int a;
+a = factorial (5);
+println (a);
+  
+ 
+}
+
+float prom ( float a, float b, float c ) {
+      float dat = (a + b + c)/3;
+      println(dat);
+  return dat;
+  
+}
+  
+int factorial (int x){
+  int res;
+ if (x == 0){
+   res = 1;
+ }
+ else{
+   res = x*factorial( x-1 );
+  
+ }
+ return res;
+}
